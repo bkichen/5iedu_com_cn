@@ -1,0 +1,169 @@
+
+/* CSS Document */
+
+
+body{ padding:0px; margin:0px auto; font-size:16px; color:#333;font-family:"Microsoft YaHei","宋体",Arial,Simhei; text-align:left; background:#78b991;} 
+
+li,ul,p,h2,input,img,span{margin:0px;padding:0px;overflow:hidden;}
+
+div{ margin:0px; padding:0px;}
+
+form{margin:0;padding:0;}
+
+li{list-style:none;}
+
+img {border:0;}
+
+
+a:link {color: #ff6527;text-decoration: none;}
+
+a:visited {text-decoration: none;color: #ff6527;}
+
+a:hover {text-decoration: underline;color:#ff6527;}
+
+a:active {text-decoration: none;}
+
+
+
+.xlytop{width:100%; height:564px; background:url(../images/xlytopbg.jpg) no-repeat center;}
+.xlytop p{text-align:center; width:1000px; margin:0px auto 0 auto; padding-top:450px;font-size:36px; color:#56312b;}
+.xlytop1{width:100%;  background: #78b991; padding-bottom:20px; height:auto; overflow:hidden;}
+.xlycen{width:1000px; height:auto; margin:0px auto; overflow:hidden; position: relative;}
+.xlyap1{width:360px; height:auto; float:left;}
+.xlyap1 P,.xlyapr P{ width:100%; line-height:30px; color:#56312b;}
+.xlyapbt{ padding:10px; background:#8f7f66; color:#f5f3cc;border-radius: 30px;-moz-border-radius: 30px;-webkit-border-radius:30px; text-align:center; margin-bottom:15px;}
+.xlyapr{width:565px; height:auto; float:right;}
+.mt1{ margin-top:20px;} .mb1{ margin-bottom:20px;}
+.xlybt1{ background:url(../images/xlybt.png) no-repeat center; height:86px;position: relative; z-index:999; text-align:center; font-size:36px; color:#fff; line-height:65px;}
+.xlybg{ background:#e4ffee; padding:50px 20px 20px 20px;width:960px;position: relative; top:-50px; overflow:hidden;}
+.xlyimg1{ width:100%; height:auto;}
+.xlyimg1{ float:left; width:550px; height:420px; overflow:hidden;}.xlyimg1 img{width:550px; height:420px}
+.xlyimg2{ width:390px; height:420px; float:right; overflow:hidden;}
+.xlyimg2 li{ float:left;width:390px; height:200px;}.xlyimg2 li img{width:390px; height:200px;}
+.xlylc{width:916px; height:auto; border-left:4px solid #78b991; padding:20px; background:#fff; overflow:hidden; margin-top:20px;}
+.xlybt2{ width:950px; height:50px;}
+.xlybt2 h2{ background:#78b991; width:200px; height:40px; line-height:40px; font-size:24px; font-weight:normal; color:#fff; text-align:center; margin-right:20px; float:left;}
+.xlybt2 p{float:left; width:400px; color:#ff6527; line-height:40px;}
+.xlynr{ width:100%; height:auto;}.xlynr h2{ width:100%; height:auto; line-height:35px; margin-bottom:10px; font-size:16px;}
+.xlynr p{ line-height:30px;}
+.xlyimg3{width:920px; height:auto; overflow:hidden; background:#fff; padding:20px;}
+.xlyimg3 li{width:450px; height:230px;}.xlyimg3 li img{width:450px; height:230px;}
+.fl{ float:left;}.rl{float:right;}
+.xlylc1{width:920px; height:auto; overflow:hidden; padding:20px;background:#78b991; color:#fff;}
+.xlylc1 h2{ font-size:24px; height:50px; line-height:30px; text-align:center;}
+.xlylc1 p{ line-height:30px;}
+.xlybk{width:100%; border-top:1px dotted #ff6527; margin:15px 0;}
+.xlylc2{width:456px; height:260px; border-left:4px solid #78b991; padding:20px; background:#fff; overflow:hidden;}
+.xlylc3 h2{ font-size:24px; height:50px; line-height:30px; text-align:center;}
+.xlylc3 p{ line-height:30px;}
+.xlylc3{width:460px; height:300px;}
+.xlylc4{width:456px; height:260px;border-right:4px solid #78b991; padding:20px;padding:20px; background:#fff; overflow:hidden;}
+.xlyzx{ width:920px; height:auto; background:#ff5601; background:#ff5601; padding:20px; color:#fff; overflow:hidden;}
+.xlyzx p{ font-size:24px; line-height:35px;}
+.xlyxz1{width:450px; height:auto;}
+.xlyxz1 P{ width:100%; line-height:30px;}
+.xlylx{ display:block; margin:0px auto;}
+.bmrk{width:1000px; height:auto;position: relative; z-index:9999; top:-30px;}
+
+.footer_1 {
+
+    width: 70%;
+
+    margin: 0px auto;
+
+}
+
+.footer_logo {
+
+    float: left;
+
+    margin: 0px 0px 10px 0px;
+
+    background: url(http://www.51edu.com/zhuanti/2020tongzijun-usa/images/logo_blue.png) no-repeat;
+
+    width: 179px;
+
+    height: 65px;
+
+}
+
+.footer_2 {
+
+    width: 60%;
+
+    margin: 0px auto;
+
+    background: #4b4b4d;
+
+    padding: 10px 20%;
+
+    overflow: hidden;
+
+}
+
+.footer_2_l {
+
+    width: 50%;
+
+    height: auto;
+
+    float: left;
+
+}
+
+.footer_2_l li {
+
+    width: 20%;
+
+    float: left;
+
+    margin-right: 10%;
+
+    height: 30px;
+
+    line-height: 30px;
+
+    color: #eee;
+
+}
+
+.footer_2_l li a {
+
+    color: #eee;
+
+}
+
+.footer_2_l p {
+
+    width: 100%;
+
+    padding-top: 15px;
+
+    color: #aaa;
+
+}
+
+.footer_logo p {
+
+    color: #279fc9;
+
+    font-size: 25px;
+
+    font-style: italic;
+
+    margin: 35px auto 0px auto;
+
+}
+
+.footer_2_r {
+
+    width: 25%;
+
+    float: right;
+
+    margin-top: 15px;
+
+}
+
+
+

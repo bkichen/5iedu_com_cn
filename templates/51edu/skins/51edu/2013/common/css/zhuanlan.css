@@ -1,0 +1,307 @@
+/*
+* @Author: 51edu
+* @Date:   2017-08-08 09:49:49
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-12 19:39:26
+*/
+/*通用start*/
+body{ padding:0px; margin:0px auto; font-size:12px; color:#252525;font-family:"Microsoft YaHei","宋体",Arial,Simhei; text-align:left;}
+li,ul,p,h2,h3,h4,h5,h6,input,img,dt,dd,span{margin:0px;padding:0px;overflow:hidden;/*vertical-align: baseline;*/}
+div{ margin:0px; padding:0px;}
+form{margin:0;padding:0;}
+li{list-style:none;}
+img {border:0;}
+a:link {color: #252525;text-decoration: none;}
+a:visited {text-decoration: none;color: #252525;}
+a:hover {text-decoration: underline;color:#2577e3;}
+a:active {text-decoration: none;}
+/*通用  end*/
+
+/*留学考试top start*/
+#top{width:100%; height:auto; background:#f5f5f5; border:1px solid #eee; border-top:3px solid #2577e3;}
+
+.top{width:980px; height:40px;  background:#f5f5f5;line-height:40px; margin:auto; overflow:hidden;}
+.top1{width:500px; height:40px; float:left; font-size:14px;}
+.top1 li{width:auto;float:left;font-family: "Microsoft YaHei",Arial,Simhei;}
+.top1-1{background:url(../images/index.png) no-repeat 0px 13px; padding-left:20px;}
+.top1-1 a{ color:#2577e3;}
+.top1-2{ border-left:1px solid #c7c6c0;  margin:10px 8px 8px 8px; height:20px; float:left;}
+.top2{width:350px; height:40px; float:right; color:#999;line-height:40px; }.top2 a{color:#999;}
+.top2-1{width:auto; height:40px; float:left;background:url(../images/mob.jpg) no-repeat -2px 6px; padding:0px 10px 0px 15px;}
+.top2-2{width:auto; height:40px; float:left;background:url(../images/pc.jpg) no-repeat -5px 7px; padding:0px 0px 0px 20px;}
+.top2 p{width:210px; height:40px; line-height:40px; float:left; color:#999;}
+
+.topn1 {
+    width: 980px;
+    height: 80px;
+    margin: 10px auto;
+}
+.logo {
+    width: 325px;
+    height: 68px;
+    float: left;
+
+}
+.logo img{
+  float: left;
+}
+.logo span {
+    height: 60px;
+    border-left: 1px solid #ccc;
+
+    margin: 10px 15px 0px 30px;
+    display: block;
+    float: left;
+}
+.logo p {
+      display: inline-block;
+  font-weight: bold;
+    height: 80px;
+    line-height: 80px;
+    float: left;
+    font-size: 20px;
+    color: #2577e3;
+}
+
+.logo p a {
+    color: #2577e3;
+}
+.search{
+  position: relative;
+}
+.search span{
+  position: absolute;
+  left:432px;
+  top:28px;
+}
+.xxss3{
+  width: 430px;
+  height: 34px;
+  padding-left: 30px;
+  margin-top: 20px;
+  margin-left: 100px;
+  float: left;
+
+}
+.sy{
+  width: 88px;
+  height: 34px;
+  line-height: 34px;
+  background:#2577e3;
+  display: block;
+   color:#fff;
+   float: left;
+   font-size: 18px;
+   text-align: center;
+   margin-top: 20px;
+}
+.top-bottom{
+  width: 980px;
+  height: 60px;
+  background:#2577e3;
+  margin:0 auto; 
+  border-radius: 5px;
+}
+.top-bottom ul {
+  padding-left:20px;
+}
+.top1-3 {
+    border-left: 1px solid #c7c6c0;
+
+    margin: 20px 8px 8px 8px;
+    height: 20px;
+    float: left;
+}
+.top1-4 a{ color:#333 !important;}
+
+.top-bottom ul li{
+  float: left;
+}
+.top-bottom ul li a{
+  font-size: 16px;
+  line-height: 60px;
+  color:#fff;
+}
+/*留学考试头部top end*/
+
+
+/*留学考试内容start*/
+.content{
+  width: 980px;
+  height: auto;
+  background:red;
+  margin: 10px auto ;
+
+}
+
+.crumb{
+	width: 630px;
+  height: 38px;
+line-height: 38px;
+font-size: 14px;
+color: #666;
+margin-left:15px;
+border-top: 2px solid #2577e3;
+background: #f5f5f5;
+
+}
+
+.crumb a{
+	font-size:12px;
+	color:#666;
+}
+
+.crumb span{
+	margin-right: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #2577e3;
+}
+/*留学考试内容左侧start*/
+.content .content-left{
+  width: 630px;
+  height: auto;
+  padding: 0px 20px 20px 0px;
+  margin-right: 10px;
+
+  float: left;
+  
+}
+
+
+.tdt-pdbiaoqian{background: url(../images/bq_icon.jpg) no-repeat 0px 0px;padding-left: 20px;}
+.article{
+
+  margin-left:20px;
+
+ }
+
+.tdt-box{width:630px;height:180px;/*padding:0px 20px 20px 0px;*/border-bottom:1px solid #f3f3f3;overflow:hidden;}
+.tdt-h3{height:30px;line-height:30px;font-size:20px;margin-top:20px;}
+.tdt-h3 a{text-decoration:none;}
+.tdt-p{height:30px;line-height:30px;color:#999;}
+.tdt-p a{color:#999;}
+.tdt-p a:hover{color:#1564be;}
+.tdt-box .tdt-p a{padding-right:7px;}
+.tdt-p strong a{color:#333;}
+.tdt-p span{padding-left:5px;
+          padding-right: 5px; 
+          }
+
+.tdt-dl{/*padding-top:10px;*/overflow:hidden;}
+.tdt-dl dt{width:210px;height:130px;float:left;}
+.tdt-dl dt img{width:185px;height:122px;}
+.tdt-box .tdt-dl dd{width:420px;height:130px;float:right;position:relative;}
+.tdt-dl dd .tdt-pc{font-size:14px;line-height:24px;text-decoration: none;}
+.tdt-dl dd .tdt-pc a{color:#252525;}
+.tdt-biaoqian{position:absolute;bottom:20px;left:0px;color:#0067a9;background:url(../images/index.png) no-repeat 0px 13px;}
+.tdt-biaoqian a:link,.tdt-biaoqian a:visited{color:#0067a9;}
+.tdt-biaoqian a:hover{color:#0e4d9c;}
+
+.dateup .zhuanti {
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    float: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2577e3;
+}
+
+.lineheight{
+  line-height: 30px;
+  font-size: 14px;
+  padding-bottom: 20px;
+
+}
+.detail{
+  padding-left: 30px;
+}
+
+.fif{
+  margin-right:50px; 
+}
+
+
+.coli_pages {
+    color: #666;
+    padding: 20px 0;
+    text-align: center;
+}
+.coli_pages a {
+    border: 1px solid #c2c0c0;
+    color: #666;
+    display: inline-block;
+    margin-right: 2px;
+    padding: 0 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    height: 28px;
+    line-height: 28px;
+}
+
+
+/*留学考试内容左侧end*/
+/*留学考试内容右侧start*/
+.content .content-right{
+  width: 300px;
+  height: auto;
+  float: right;
+
+}
+
+
+/*底部start*/
+#site-footer {
+    text-align: center;
+    width: 950px;
+    margin: 10px auto;
+    font-family: arial,'宋体';
+    line-height: 22px;
+    clear: both;
+}
+#site-footer .footer-nav {
+    padding-bottom: 10px;
+    color: #999;
+}
+#site-footer .footer-nav a {
+    padding: 0 8px 0 7px;
+}
+#site-footer .copyright {
+    color: #999;
+    line-height: 20px;
+}
+/*底部end*/
+
+
+
+.content-right .zuiup .zuiups li{
+	margin: 10px 10px;
+	width: 280px;
+	height: 24px;
+}
+.content-right .zuiup .zuiups li a{
+	font-size: 14px;
+	text-decoration: none;
+	line-height: 30px;
+}
+.content-right .zuiup .zuiup-title{
+	background: url(../images/zuiup_03.jpg) no-repeat;
+	width: 300px;
+    height: 42px;
+}
+.content-right .zuiup .zuiup-title p{
+	margin-left: 40px;
+	padding-top: 10px ;
+	font-size: 16px;
+}
+.content-right .zuiup .zuiups li::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #39f;
+    display: inline-block;
+    margin-right: 12px;
+    vertical-align: 1px;
+}
